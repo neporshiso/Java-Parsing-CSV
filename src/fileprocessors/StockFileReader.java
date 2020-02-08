@@ -31,8 +31,6 @@ public class StockFileReader {
         }
     }
 
-    // Currently grabs the first line which is annoying. How to skip the first line? TODO
-
     public List<String> readFileData() throws IOException {
         List<String> lines = new ArrayList<>();
         String path = this.filePath;
